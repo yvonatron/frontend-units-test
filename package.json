@@ -1,0 +1,16 @@
+{
+  "name": "frontend-units",
+  "version": "0.0.0",
+  "description": "A frontend test on unit testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --compilers js:babel/register --check-leaks -R spec test.js"
+  },
+  "author": "John Wright <johngeorge.wright@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "babel": "^4.6.6",
+    "chai": "^2.1.0",
+    "mocha": "^2.1.0"
+  }
+}
